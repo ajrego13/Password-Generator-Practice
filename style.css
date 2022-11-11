@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family:'Open Sans', sans-serif;
+    ;
+}
+
+.card {
+    margin-top: 50px;
+    width: 400px;
+    height: 300px;
+    max-width: 450vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    border-radius: 10%;
+    background-color: whitesmoke;
+}
+.password-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+.password {
+   margin: 5px;
+   padding: 15px;
+   border-radius: 10%;
+   background-color: antiquewhite;
+}
+
+.clipboard {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.clipboard:hover {
+    fill:grey; 
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 5px;
+}
+
+.form-control {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.form-control-btn {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    width: 200px
+}
+
+.password-length {
+    margin: 5px;
+}
+.generate {
+    display: flex;
+    align-self: center;
+    width: 100%;
+}
